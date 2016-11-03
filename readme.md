@@ -14,7 +14,7 @@ $('.slideshow').picknick().on('click', function(e) {
 ```
 
 ### Example
-```js
+```sh
 # Symlink freshly built standalone module into example folder
 # Start a php server on port 8000
 npm run example
