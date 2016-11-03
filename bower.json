@@ -1,0 +1,27 @@
+{
+  "name": "jquery-picknick",
+  "description": "Tabs made simple",
+  "main": [
+    "jquery.picknick.js"
+  ],
+  "moduleType": "globals",
+  "license": "Unlicense",
+  "ignore": [
+    ".*",
+    "readme*",
+    "package.json",
+    "example"
+  ],
+  "keywords": [
+    "gallery",
+    "menu",
+    "slides",
+    "tabs"
+  ],
+  "authors": [
+    "sChzs BkgNns <sotirios.bakagiannis@gmail.com> (https://www.thewhodidthis.com)"
+  ],
+  "dependencies": {
+    "jquery": "latest"
+  }
+}
