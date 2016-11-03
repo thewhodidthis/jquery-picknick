@@ -9,6 +9,7 @@
   "ignore": [
     ".*",
     "readme*",
+    "LICENSE",
     "package.json",
     "example"
   ],
