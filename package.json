@@ -49,5 +49,6 @@
     "uglify-js": "latest"
   },
   "author": "sChzs BkgNns <sotirios.bakagiannis@gmail.com> (https://www.thewhodidthis.com)",
-  "license": "Unlicense"
+  "license": "Unlicense",
+  "private": true
 }
