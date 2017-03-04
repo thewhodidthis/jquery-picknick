@@ -22,7 +22,7 @@
   },
   "config": {
     "jscsrc": ".jscsrc",
-    "remote": "thewhodidthis@umfufu:www/example/jquery-picknick/"
+    "remote": "thewhodidthis@zazie:www/example/jquery-picknick/"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
