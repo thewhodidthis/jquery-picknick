@@ -1,0 +1,6 @@
+{
+  "extends": "jquery",
+  "env": {
+    "jquery": true,
+  }
+}
