@@ -18,7 +18,7 @@ var Picknick = {
 
   options: {
     name: "picknick",
-    active: "active",
+    active: "is-active",
     selector: null
   },
 
@@ -31,7 +31,7 @@ var Picknick = {
 
     this
       .$host
-      .on( "pick.nick", $.proxy( function( e, target ) {
+      .on( "pick", $.proxy( function( e, target ) {
         e.stopPropagation();
 
         this.pick( target );
@@ -61,7 +61,7 @@ var Picknick = {
 
     this.idx = target;
 
-    this.$host.triggerHandler( "pick.nick.d", target );
+    this.$host.triggerHandler( "pick.nick", target );
   },
 
   prev: function() {
