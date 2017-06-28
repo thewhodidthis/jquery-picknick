@@ -1,46 +1,38 @@
-html {
-  overflow: scroll;
-}
-
-body,
-p,
-ul,
-figure {
+body {
   margin: 0;
+  padding: 0.5rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  font: 16px/1.25 arial, sans-serif;
 }
 
-noscript {
-  margin: 6px;
-  font: italic 12px/28px arial, sans-serif;
+small {
+  font-size: 0.75rem;
 }
 
-a {
-  outline: none;
+p {
+  margin: 0;
+  font-size: 0.875rem;
 }
 
 figure {
   top: 50%;
-  width: 100%;
-  height: 360px;
-  margin-top: -180px;
+  left: 50%;
   position: absolute;
   text-align: center;
+  margin: -180px 0 0 -320px;
 }
 
-figure ul,
-figure li,
-figure li img {
-  height: 100%;
+figcaption {
+  margin: 0.5rem;
 }
 
-figure li,
-figure li img {
-  display: inline-block;
-}
-
-figure ul {
+ul {
+  margin: 0;
   padding: 0;
   font-size: 0;
+  width: 640px;
+  height: 360px;
   line-height: 0;
   display: block;
   list-style: none;
@@ -48,18 +40,29 @@ figure ul {
   counter-reset: slide;
 }
 
-figure li {
+li {
+  display: inline-block;
   counter-increment: slide;
 }
 
-figure li a {
-  color: #000;
-  height: 360px;
+li,
+img {
+  height: 100%;
+}
+
+img {
+  width: auto;
+  display: block;
+}
+
+a {
+  width: 100%;
+  height: 100%;
   display: none;
   position: relative;
 }
 
-figure li a::before {
+a::before {
   top: 0;
   right: 0;
   position: absolute;
@@ -67,49 +70,6 @@ figure li a::before {
   color: rgba(255, 255, 255, 0.4);
   font: bold 15px/1 arial, sans-serif;
   content: counter(slide, decimal-leading-zero);
-}
-
-figcaption {
-  font-size: 90%;
-  margin-top: 0.5rem;
-}
-
-figcaption p {
-  padding-left: 0.5rem;
-}
-
-img {
-  width: auto;
-  height: 360px;
-}
-
-.no-js ul {
-  opacity: 0.666;
-}
-
-.is-iframe {
-  overflow: hidden;
-}
-
-.is-iframe figure {
-  top: 0;
-  margin: 0;
-  text-align: left;
-}
-
-.is-iframe figure ul,
-.is-iframe figure li,
-.is-iframe figure li img {
-  height: auto;
-}
-
-.is-iframe figcaption {
-  display: none;
-}
-
-.is-iframe img {
-  width: 100%;
-  max-width: 100%;
 }
 
 .is-active {
