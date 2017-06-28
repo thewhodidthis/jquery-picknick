@@ -25,7 +25,7 @@
   },
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint jquery.picknick.js",
+    "lint": "eslint example/*.js",
     "start": "uglifyjs jquery.picknick.js -cmo jquery.picknick.min.js",
     "example": "npm run example:build && npm run example:serve",
     "example:build": "ln -siv \"$(pwd)/jquery.picknick.js\" example",
