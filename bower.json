@@ -1,9 +1,7 @@
 {
   "name": "jquery-picknick",
   "description": "Tabs made simple",
-  "main": [
-    "jquery.picknick.js"
-  ],
+  "main": "index.js",
   "moduleType": "globals",
   "license": "Unlicense",
   "ignore": [
