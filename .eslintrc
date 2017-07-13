@@ -1,7 +1,0 @@
-{
-  "extends": "jquery",
-  "env": {
-    "browser": true,
-    "jquery": true,
-  }
-}
