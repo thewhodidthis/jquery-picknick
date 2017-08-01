@@ -14,7 +14,7 @@
   "scripts": {
     "test": "eslint .",
     "start": "open index.html",
-    "postpublish": "rsync -avruzLPC --del ./ thewhodidthis@zazie:www/example/jquery-picknick/"
+    "postpublish": "rsync -avruzLPC --del ./index.* \"$(cat config)\""
   },
   "eslintConfig": {
     "extends": "jquery",
