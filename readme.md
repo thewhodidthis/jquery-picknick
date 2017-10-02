@@ -8,7 +8,9 @@ bower install jquery-picknick
 
 ### Usage
 ```js
-$('.slideshow').picknick().on('click', function(e) {
-    $(this).trigger('pick.next');
-});
+$( ".slideshow" )
+    .picknick()
+    .on( "click", function() {
+        $( this ).trigger( "pick.next" );
+    });
 ```
